@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Моя сайт-визитка">
+    <meta name="keywords" content="Веб-разработка">
+    <meta name="author" content="Алексей">
+    <title>Моя сайт-визитка</title>
+</head>
+<body>
+    <!-- 1. Оформление текста -->
+    <h1>Привет, меня зовут <em>Алексей</em></h1>
+    <p>Я занимаюсь <u>веб-разработкой</u> и <u>программированием</u>.</p>
+
+    <!-- 2. Списки -->
+    <h2>Мои навыки:</h2>
+    <ul>
+        <li>Владение PascalABC</li>
+        <li>Владение Delphi</li>
+        <li>Владение Python</li>
+        <li>Владение C#</li>
+    </ul>
+
+    <h2>Любимые блюда:</h2>
+    <ol>
+        <li>Блины</li>
+        <li>Стэйк</li>
+        <li>Пицца</li>
+    </ol>
+
+    <!-- 3. Изображения -->
+    <img src="D:\My files\колледж\3 курс\2 семестр\ПССИП\л1-3\фото.jpg" width=500 alt="Моё фото">
+
+    <!-- 4. Аудио и видео-контент -->
+    <h2>Мои любимые исполнители:</h2>
+    <audio controls>
+        <source src="D:\My files\колледж\3 курс\2 семестр\ПССИП\л1-3\песня.mp3" width-500 type="audio/mpeg">
+    </audio>
+    <video controls>
+        <source src="видео.mp4" type="video/mp4">
+    </video>
+
+    <!-- 5. Таблицы -->
+    <table border="1">
+        <tr>
+            <th>Язык программирования</th>
+            <th>Уровень владения</th>
+        </tr>
+        <tr>
+            <td>PascalABC</td>
+            <td>Хорошо</td>
+        </tr>
+        <tr>
+            <td>Delphi</td>
+            <td>Хорошо</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Хорошо</td>
+        </tr>
+        <tr>
+            <td>C#</td>
+            <td>Хорошо</td>
+        </tr>
+    </table>
+
+    <!-- 6. Пользовательские формы -->
+    <form action="/submit" method="post">
+        <p>Введите ваше имя:</p>
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <p>Введите email адрес, кому вы хотите написать:</p>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="checkbox" id="preference1" name="preference1" value="value1">
+        <label for="preference1">Да?</label><br>
+
+        <input type="checkbox" id="preference2" name="preference2" value="value2">
+        <label for="preference2">Нет?</label><br>
+
+        <input type="checkbox" id="preference3" name="preference3" value="value3">
+        <label for="preference3">Не знаю</label><br>
+        <input type="submit" value="Отправить">
+    </form>
+
+    <!-- 7. Гиперссылки -->
+    <a href="#навыки">Перейти к моим навыкам</a><br>
+    <a href="https://github.com/AlexMitiukov">Мой GitHub</a>
+
+    <!-- 8. Спецсимволы -->
+    &copy; 2024Алекс
+
+    <!-- 9. Семантические теги -->
+    <footer>&copy; 2024Алекс. Все права защищены.</footer>
+</body>
+</html>
