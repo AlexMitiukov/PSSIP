@@ -1,0 +1,238 @@
+
+/*Navigashion*/
+
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header_inner {
+    display: flex;
+    width: 1520px;
+    justify-content: space-between;
+    background-color: #00ffff;
+    height: 80px;
+    align-items: center;
+}
+
+.images {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    color: #ffffff;
+    border: 1px solid #00ff21;
+    height: 50px;
+    margin: 10px 0% 10px 120px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 6px 0% 6px 120px;
+    color: #000;
+    background-color: #ffff;
+    text-decoration: none;
+}
+.header_block{
+    margin-left:30px;
+}
+
+/*Intro*/
+
+.Intro_section {
+    display: flex;
+    justify-content: space-between;
+    height:742px;
+    background-color:#ffd800;
+    margin-top:80px;
+}
+
+.Right{
+    width: 900px;
+    height:884px;
+    background-color: #0026ff;
+}
+
+.Left {
+    background-color:#ffd800;
+    margin-top:300px;
+    width: 600px;
+    height: 664px;
+    display: flex;
+    flex-direction: column;
+}
+
+.One_Block {
+    width: 900px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#00ff21;
+    margin-top:5%;
+}
+
+.One_Foto{
+    background-color:#ffffff;
+    border:1px solid;
+    height:80%;
+    margin-top: 4%;
+    width:20%;
+}
+
+.One_Text {
+    background-color: #ffffff;
+    border: 1px solid;
+    height: 100%;
+    width: 30%;
+}
+
+.Two_Block {
+    width: 100%;
+    height: 20%;
+    background-color: #00ffff;
+}
+
+.Two_Text {
+    margin-left: 12%;
+    background-color: #ffff;
+    border: 1px solid;
+    height: 100%;
+    width: 75.4%;
+}
+
+.Three_Block {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 100%;
+    height: 20%;
+    background-color:#00ff21;
+    margin-top:2%;
+}
+
+.Three_Foto {
+    grid-column-start: 2;
+    background-color: #ffffff;
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    grid-row: 1/3;
+}
+
+.Three_Text {
+    grid-column-start: 3;
+    margin-left:18%;
+    grid-column-end: 5;
+    background-color: #ffffff;
+    border: 1px solid;
+    height: 100%;
+    width: 100%;
+    grid-row: 1/3;
+}
+
+.button_block {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 10px 0px 10px 20px;
+    color: #000;
+    background-color: #ffff;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    margin-left:100px;
+}
+.button_margin {
+    margin-left: 300px;
+}
+
+.button_intro {
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #000;
+    margin: 10px 0% 5px 20px;
+    color: #000;
+    background-color: #ffff;
+}
+
+/*Footer*/
+
+.Footer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 200px;
+    background-color: #0B0D17;
+    color: #fff;
+    margin-top: 220px;
+    width: 1500px
+}
+
+.foto_footer{
+    margin-top:5%;
+    margin-left:5%;
+     width:60%;
+     height:400%;
+     background-color:#ff0000;
+}
+
+.subscription_form {
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+    border-radius: 1%;
+    font-family: sans-serif;
+    margin-bottom: 10%;
+}
+
+.subscription_block {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.subscription_label {
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: -1;
+    font-weight: bold;
+    color: #E43071;
+}
+
+.subscription_input {
+    margin-left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #E43071;
+    width: 80%;
+    padding: 2% 0 2% 0;
+}
+
+.Text_footer{
+    width:100%;
+    height:450%;
+    margin-top:2%;
+    margin-left:-30%;
+    border: 1px solid;
+}
+
+.button_footer_One {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    width: 30%;
+    padding: 1% 1% 1% 1%;
+    border: 2px solid #ffffff;
+    color: #000;
+    background-color: #ff6a00;
+}
+.button_footer_Two {
+    grid-column-start: 5;
+    grid-row-start: 3;
+    width: 30%;
+    padding: 1% 1% 1% 1%;
+    border: 2px solid #ffffff;
+    color: #000;
+    background-color: #ff6a00;
+}
