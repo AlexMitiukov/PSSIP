@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/space.png') no-repeat center center/cover;
+}
+
+canvas {
+    display: block;
+}
