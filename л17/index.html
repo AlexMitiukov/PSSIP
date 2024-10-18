@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interface Events Demo</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+
+        <h1>JS Interface Events Demo</h1>
+        
+        <!-- Мышь -->
+        <button id="mouseEventButton">Click Me</button>
+        
+        <!-- Клавиатура -->
+        <input type="text" id="keyboardEventInput" placeholder="Type something...">
+        
+        <!-- Drag and Drop -->
+        <div id="dragDropContainer">
+            <div id="draggable" draggable="true">Drag me</div>
+            <div id="dropZone">Drop here</div>
+        </div>
+
+        <!-- События указателя -->
+        <div id="pointerEventBox">Pointer Event</div>
+
+        <!-- Полоса прокрутки -->
+        <div id="scrollContainer">
+            <div id="scrollContent"></div>
+        </div>
+
+        <!-- Сенсорный экран -->
+        <div id="touchBox">Touch Me</div>
+
+        <!-- Таймер -->
+        <button id="startTimerButton">Start Timer</button>
+        <div id="timerDisplay">0</div>
+
+        <script src="assets/js/mouseEvent.js"></script>
+        <script src="assets/js/keyboardEvent.js"></script>
+        <script src="assets/js/dragDropEvent.js"></script>
+        <script src="assets/js/pointerEvent.js"></script>
+        <script src="assets/js/scrollEvent.js"></script>
+        <script src="assets/js/touchEvent.js"></script>
+        <script src="assets/js/timerEvent.js"></script>
+
+    </body>
+</html>

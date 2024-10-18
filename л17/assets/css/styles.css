@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#dragDropContainer {
+    margin-top: 20px;
+}
+
+#draggable {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+#dropZone {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+
+#pointerEventBox {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#scrollContainer {
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+#scrollContent {
+    height: 500px;
+    background: linear-gradient(white, lightblue);
+}
+
+#touchBox {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+}
+
+#timerDisplay {
+    margin-top: 20px;
+    font-size: 24px;
+}
